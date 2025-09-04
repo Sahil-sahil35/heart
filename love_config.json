@@ -1,0 +1,361 @@
+{
+    "meta": {
+        "appTitle": "Our Forever Adventure",
+        "proposerName": "Always Yours",
+        "recipientName": "My Love",
+        "date": "2025-09-03",
+        "theme": {
+            "primary": "#FF6B9D",
+            "onPrimary": "#FFFFFF",
+            "surface": "#FFF8F0",
+            "onSurface": "#333333",
+            "accent": "#FFD166"
+        },
+        "ui": {
+            "showDarkModeToggle": false,
+            "reducedMotionFriendly": true,
+            "enableConfetti": true
+        }
+    },
+    "gallery": [
+        {
+            "id": "img1",
+            "url": "./images/sunset.webp",
+            "alt": "A romantic sunset walk on the beach",
+            "caption": "Every sunset with you feels like a promise of more beautiful moments."
+        },
+        {
+            "id": "img2",
+            "url": "./images/adventure.webp",
+            "alt": "Two people hiking in the mountains",
+            "caption": "Our adventures together make my heart soar higher than any mountain peak."
+        },
+        {
+            "id": "img3",
+            "url": "./images/cozy nights.webp",
+            "alt": "Couple reading books on a couch",
+            "caption": "The quiet moments with you are my favorite kind of magic."
+        },
+        {
+            "id": "img4",
+            "url": "./images/painting.webp",
+            "alt": "Artistic couple painting together",
+            "caption": "Creating something beautiful together is my idea of perfect happiness."
+        },
+        {
+            "id": "img5",
+            "url": "./images/future.webp",
+            "alt": "Couple looking at stars",
+            "caption": "When I look at the stars, I only see our future written in their light."
+        }
+    ],
+    "interludes": [
+        {
+            "id": "intro-welcome",
+            "type": "interlude",
+            "imageId": "img1",
+            "intro": "Hello, my dearest love. Take a deep breath with me.",
+            "text": "This little adventure is just for you—full of love, joy, and the promise of forever. We'll wander through special moments, make choices that reflect our unique bond, and somewhere along this beautiful path, you'll find my heart waiting for you.",
+            "outro": "Ready to begin our forever adventure? Tap Next when your heart says yes."
+        },
+        {
+            "id": "pause-adventure",
+            "type": "interlude",
+            "imageId": "img2",
+            "intro": "A pause in our adventure, like the calm before a smile.",
+            "text": "Every journey has its quiet moments. Ours is no different. Take your time with each choice—there's no rush in love.",
+            "outro": "On we go, with hearts full of anticipation and eyes full of stars."
+        },
+        {
+            "id": "pause-cozy",
+            "type": "interlude",
+            "imageId": "img3",
+            "intro": "Let's cozy up for a moment, like we're sharing secrets.",
+            "text": "In the quiet, I find the loudest proof of my love for you. These little moments are where our story truly lives.",
+            "outro": "Let's keep writing our beautiful story together."
+        },
+        {
+            "id": "pause-creative",
+            "type": "interlude",
+            "imageId": "img4",
+            "intro": "In our creativity, we find new ways to love.",
+            "text": "Every shared laugh, every created memory, every whispered dream—they're all brushstrokes on the canvas of us.",
+            "outro": "Next, a little play. The kind that makes time feel lighter and hearts feel fuller."
+        },
+        {
+            "id": "pause-future",
+            "type": "interlude",
+            "imageId": "img5",
+            "intro": "If forever were confetti, the room would be full.",
+            "text": "And still I'd search for one more reason to adore you, one more moment to cherish, one more dream to share.",
+            "outro": "Come closer—there's something I've been keeping safe for you."
+        }
+    ],
+    "questions": [
+        {
+            "id": "q1",
+            "type": "single",
+            "intro": "First, let's set the scene for our love story.",
+            "prompt": "Which beginning sounds most like us?",
+            "options": [
+                "Two friends who kept finding excuses to stay a little longer.",
+                "A spark that felt like home the moment it flickered.",
+                "The Filmic one that is pheli nazar ka pyar",
+                "A whirlwind adventure that swept us off our feet kept us apart just to get ur together in the end."
+            ],
+            "outro": "Beautiful choice. I can feel the shape of our story already taking form.",
+            "imageId": "img1",
+            "path": ["cozy", "beach", "cozy", "adventure"]
+        },
+        {
+            "id": "q2",
+            "type": "single",
+            "intro": "Tell me your favorite kind of magic.",
+            "prompt": "Pick the moment that makes your heart sing:",
+            "options": [
+                "Morning sunlight dancing on your face.",
+                "A message that says 'thinking of you, my sweetie'.",
+                "Shared laughter that bubbles up from nowhere.",
+                "A spontaneous dance in the kitchen."
+            ],
+            "outro": "I'll keep that melody in my heart for all our rainy days.",
+            "imageId": "img2",
+            "path": ["adventure", "beach", "creative", "creative"]
+        },
+        {
+            "id": "q3",
+            "type": "multi",
+            "intro": "Let's design our perfect day together.",
+            "prompt": "Choose all the moments you'd love to share:",
+            "options": [
+                "Cooking a meal side by side, creating delicious chaos.",
+                "Watching a movie wrapped in the same cozy blanket.",
+                "Exploring a new places and rating the pastries, chocloates and drinks.",
+                "Reading/gaming in the same room together.",
+                "Or My Miss likes her chair?😁😉."
+            ],
+            "outro": "Perfect. A day woven with threads of joy and togetherness.",
+            "imageId": "img1",
+            "path": ["cozy", "cozy", "adventure", "cozy", "beach"]
+        },
+        {
+            "id": "q4",
+            "type": "single",
+            "intro": "I love learning what makes you feel loved.",
+            "prompt": "What kind of comfort means the most when you're tired?",
+            "options": [
+                "A warm drink placed gently in your hands.",
+                "A hug that says 'I'm here'.","Doing masti till u get even more tierd",
+                "A message reminding you how amazing you are.","Going out to some new place",
+                "Peaceful silence with someone nearby."
+            ],
+            "outro": "Thank you for sharing this with me. I'll remember.",
+            "imageId": "img3",
+            "path": ["cozy", "cozy", "beach", "cozy"]
+        },
+        {
+            "id": "q5",
+            "type": "scale",
+            "intro": "On a scale of hearts…",
+            "prompt": "How much do you enjoy spontaneous adventures together? (1–5 hearts)",
+            "labels": ["1","2","3","4","5"],
+            "outro": "Noted! Our adventures will match the rhythm of your smile.",
+            "imageId": "img2"
+        },
+        {
+            "id": "q6",
+            "type": "single",
+            "intro": "Choose our soundtrack.",
+            "prompt": "If our life had a background song, it would be…",
+            "options": [
+                "Soft indie melodies and the sound of rain.",
+                "Classic love songs that make you sway.",
+                "Upbeat tunes that make you want to dance.",
+                "Acoustic guitar by an open window."
+            ],
+            "outro": "I can almost hear our theme song now.",
+            "imageId": "img4",
+            "path": ["creative", "cozy", "adventure", "creative"]
+        },
+        {
+            "id": "q7",
+            "type": "multi",
+            "intro": "Dreaming of our future, one sweet moment at a time.",
+            "prompt": "Which dreams warm your heart? Choose any:",
+            "options": [
+                "A home filled with the smell of fresh coffee?🤣 drink less love",
+                "A passport with stamps from places all around the world going world tour with this one love.",
+                "A garden we nurture together.",
+                "A playful pet that chooses us both.",
+                "A library filled with books and looking like some fantasy."
+            ],
+            "outro": "I love the landscape of your dreams.",
+            "imageId": "img5",
+            "path": ["cozy", "adventure", "creative", "cozy", "cozy"]
+        },
+        {
+            "id": "q8",
+            "type": "single",
+            "intro": "Comfort food for the soul.",
+            "prompt": "When celebrating something small, we're enjoying…",
+            "options": [
+                "Our own Perfectly backed pizza with extra toppings.",
+                "Homemade noodles.",
+                "Street food from a hidden gem.",
+                "Dessert first, because why wait?"
+            ],
+            "outro": "Noted. I'll keep these recipes and locations close at hand.",
+            "imageId": "img3",
+            "path": ["cozy", "cozy", "adventure", "creative"]
+        },
+        {
+            "id": "q9",
+            "type": "scale",
+            "intro": "A tiny compass for our love.",
+            "prompt": "How much do you enjoy surprises from me? (1–5 hearts)",
+            "labels": ["1","2","3","4","5"],
+            "outro": "Thank you. Our surprises will be calibrated with care.",
+            "imageId": "img4"
+        },
+        {
+            "id": "q10",
+            "type": "single",
+            "intro": "Imagine our perfect evening.",
+            "prompt": "Which evening together makes you smile the most?",
+            "options": [
+                "Board games and silly jokes that make us laugh until we cry.",
+                "A long walk after dinner, pockets full of conversation.",
+                "Stargazing and making up constellations.",
+                "Cafe sitting and imagining stories about passersby(have done it many time in school🤣)."
+            ],
+            "outro": "That sounds absolutely perfect. I'm already there with you.",
+            "imageId": "img5",
+            "path": ["creative", "cozy", "beach", "adventure"]
+        },
+        {
+            "id": "q11",
+            "type": "short",
+            "intro": "Just one word.",
+            "prompt": "What's a word that feels like 'home' to you right now?",
+            "placeholder": "A word that feels safe and warm...",
+            "outro": "Beautiful. I'll whisper that word to you on days when you need it most.",
+            "imageId": "img3"
+        },
+        {
+            "id": "q12",
+            "type": "short",
+            "intro": "And a wish for us.",
+            "prompt": "Share one simple, kind wish for our forever.",
+            "placeholder": "A wish for our journey together...",
+            "outro": "I'll keep this wish close to my heart, always.",
+            "imageId": "img5"
+        }
+    ],
+    "games": [
+        {
+            "id": "g1",
+            "type": "memory-match",
+            "title": "Our Special Moments",
+            "intro": "Flip the cards to find pairs of our favorite memories. Take your time—there's no rush in love.",
+            "outro": "Matched! See? We're already experts at finding joy together.",
+            "settings": {
+                "pairs": [["💖","💖"],["🎨","🎨"],["🍿","🍿"],["✈️","✈️"],["🎶","🎶"],["🌹","🌹"]],
+                "shuffle": true
+            }
+        },
+        {
+            "id": "g2",
+            "type": "catch-the-hearts",
+            "title": "A Sky Full of Love",
+            "intro": "Hearts will drift by—catch as many as you like. Each one is a reason I adore you.",
+            "outro": "Look at that! You've gathered a sky full of reasons to love you.",
+            "settings": {
+                "durationSeconds": 25,
+                "targetScore": 18,
+                "maxConcurrent": 6,
+                "spawnIntervalMs": 400,
+                "heartLifetimeMs": 3500
+            }
+        },
+        {
+            "id": "g3",
+            "type": "maze",
+            "title": "Find Our Future",
+            "intro": "Guide the heart through the maze. Our future is waiting; it's always been yours.",
+            "outro": "You found it. Of course you did—you always find your way to my heart.",
+            "settings": {
+                "gridSize": 15,
+                "controls": "arrows+swipe+onscreen"
+            }
+        },
+        {
+            "id": "g4",
+            "type": "puzzle",
+            "title": "Complete Our Picture",
+            "intro": "Slide the pieces to complete our special photo. Every move brings us closer.",
+            "outro": "You did it! Our picture is complete, just like my heart with you in it.",
+            "settings": {
+                "imageId": "img5",
+                "difficulty": "medium"
+            }
+        }
+    ],
+    "endings": [
+        {
+            "id": "ending-beach",
+            "type": "ending",
+            "title": "Under the Moonlight",
+            "description": "On a secluded beach at sunset, with the waves whispering secrets to the shore, I get down on one knee. The sky is painted in hues of gold and rose, mirroring the warmth in my heart. 'From the moment we met, I knew you were my forever. Will you marry me and make all our dreams come true?'",
+            "image": "/images/sunset.webp",
+            "alt": "Romantic beach proposal at sunset"
+        },
+        {
+            "id": "ending-adventure",
+            "type": "ending",
+            "title": "At the Summit",
+            "description": "After a challenging hike to a breathtaking mountain peak, we pause to catch our breath and take in the view. As you admire the panorama, I turn to you with tears in my eyes. 'You've made every adventure worth taking. Will you take the greatest adventure of all and spend forever with me?'",
+            "image": "./images/adventure.webp",
+            "alt": "Proposal at the top of a mountain"
+        },
+        {
+            "id": "ending-cozy",
+            "type": "ending",
+            "title": "By the Fireside",
+            "description": "On a rainy evening, we're curled up on the couch with tea and a movie. As the fire crackles softly, I take your hand. 'In all the quiet moments we've shared, my love for you has grown deeper than I ever imagined. Will you build a lifetime of cozy nights with me?'",
+            "image": "./images/cozy nights.webp",
+            "alt": "Intimate home proposal by the fireplace"
+        },
+        {
+            "id": "ending-creative",
+            "type": "ending",
+            "title": "In Our Art Studio",
+            "description": "Surrounded by our paintings and creations, I hand you a canvas. On it is a painting of two intertwined hearts. 'You've colored my world in ways I never thought possible. Will you be my partner in every masterpiece we create together, starting with forever?'",
+            "image": "./images/painting.webp",
+            "alt": "Creative proposal in an art studio"
+        }
+    ],
+    "sequence": [
+        { "type": "interlude", "ref": "intro-welcome" },
+        { "type": "question", "ref": "q1" },
+        { "type": "question", "ref": "q2" },
+        { "type": "interlude", "ref": "pause-adventure" },
+        { "type": "question", "ref": "q3" },
+        { "type": "question", "ref": "q4" },
+        { "type": "question", "ref": "q5" },
+        { "type": "interlude", "ref": "pause-cozy" },
+        { "type": "game", "ref": "g1" },
+        { "type": "question", "ref": "q6" },
+        { "type": "question", "ref": "q7" },
+        { "type": "question", "ref": "q8" },
+        { "type": "game", "ref": "g2" },
+        { "type": "interlude", "ref": "pause-creative" },
+        { "type": "question", "ref": "q9" },
+        { "type": "question", "ref": "q10" },
+        { "type": "question", "ref": "q11" },
+        { "type": "question", "ref": "q12" },
+        { "type": "game", "ref": "g3" },
+        { "type": "game", "ref": "g4" },
+        { "type": "interlude", "ref": "pause-future" },
+        { "type": "ending", "ref": "ending-cozy" }
+    ]
+}
